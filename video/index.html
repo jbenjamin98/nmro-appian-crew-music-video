@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NMRO Appian Crew — Music Video</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Monoton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="wrap">
+  <div id="artbox">
+    <svg id="stage" viewBox="0 0 1280 576" preserveAspectRatio="xMidYMid slice"><defs id="defs"></defs>
+      <g id="world"><g id="bg"></g><g id="chars"></g><g id="fg"></g><g id="fx"></g></g></svg>
+    <div id="vig"></div><div id="scan"></div><div id="flash"></div>
+    <div id="tag"></div><div id="bubble"></div>
+  </div>
+  <div id="band"><div id="cap"></div></div>
+  <div id="title"><div class="t1">NMRO</div><div class="t2">APPIAN CREW</div><div class="t3">THE ROCK OPERA OF LOW-CODE</div></div>
+  <div id="hint"></div>
+  <div id="bar"><button id="play">▶</button><input id="scrub" type="range" min="0" step="0.05" value="0"><span id="time">0:00</span></div>
+  <div id="start"><div><div class="big">NMRO APPIAN CREW</div><div class="sm">▶ CLICK TO ROCK</div><div class="kb">Space = play/pause · ←/→ = ±5s · [ ] = nudge sync</div></div></div>
+  <div id="end"><div><div class="big">THANK YOU!</div><div class="sm" id="replay">↻ REPLAY</div></div></div>
+  <audio id="audio" src="./song.mp3" preload="auto" playsinline></audio>
+</div>
+<script src="characters.js"></script><script src="scenes.js"></script><script src="timeline.js"></script><script src="env.js"></script><script src="app.js"></script>
+</body></html>
